@@ -28,7 +28,7 @@ class Matakuliah{
             cout << "Sks\t: ";
             cin >> sks;
         }
-        void tampilMK(){
+        void output(){
             cout << "Kode MK\t: " << kodeMK << endl;
             cout << "Nama MK\t: " << namaMK << endl;
             cout << "Sks\t: " << sks << endl;
