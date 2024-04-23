@@ -13,3 +13,10 @@ class Mahasiswa{
             cout << "Umur \t: "<< umur << endl;
         }
 };
+
+class Matakuliah{
+    private :
+        string kodeMK;
+        string namaMK;
+        int sks;
+};
