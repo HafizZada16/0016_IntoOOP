@@ -8,7 +8,7 @@ class bangunDatar{
     public:
         float Luas;
 
-        void input(){
+        void input(){ // methode input persegi panjang
             cout << "Masukkan Panjangnya = ";
             cin >> panjang;
             cout << "Masukkan Lebarnya = ";
@@ -27,7 +27,7 @@ class bangunDatar{
 };
 
 int main(){
-    bangunDatar pp;
+    bangunDatar pp; // deklarasi objek pp dari class bangunDatar
     pp.input();
     pp.display();
 
