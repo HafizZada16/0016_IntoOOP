@@ -7,7 +7,7 @@ class Mahasiswa{
         int umur;
         string jurusan;
 
-        void tampilData(){
+        void output(){
             cout << "Nama \t: "<< nama << endl;
             cout << "Umur \t: "<< umur << endl;
             cout << "Jurusan \t: "<< jurusan << endl;
