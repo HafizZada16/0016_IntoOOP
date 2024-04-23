@@ -3,14 +3,14 @@ using namespace std ;
 
 class Mahasiswa{
     public :
-        int nim;
         string nama;
         int umur;
+        string jurusan;
 
         void tampilData(){
-            cout << "NIM \t: "<< nim << endl;
             cout << "Nama \t: "<< nama << endl;
             cout << "Umur \t: "<< umur << endl;
+            cout << "Jurusan \t: "<< jurusan << endl;
         }
 };
 
