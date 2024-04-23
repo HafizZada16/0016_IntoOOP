@@ -20,12 +20,12 @@ class Matakuliah{
         string namaMK;
         int sks;
     public :
-        void inputMK(){
-            cout << "Masukkan kode\t: ";
+        void input(){
+            cout << "Kode MK\t: ";
             cin >> kodeMK;
-            cout << "Masukkan nama\t: ";
+            cout << "Nama MK\t: ";
             cin >> namaMK;
-            cout << "Masukkan sks\t: ";
+            cout << "Sks\t: ";
             cin >> sks;
         }
         void tampilMK(){
