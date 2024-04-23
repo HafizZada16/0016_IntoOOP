@@ -28,4 +28,7 @@ class Matakuliah{
             cout << "Masukkan sks\t: ";
             cin >> sks;
         }
+        void tampilMK(){
+            
+        }
 };
